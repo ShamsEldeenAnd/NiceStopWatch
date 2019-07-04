@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#211D44"
+	tools:context=".MainActivity">
+	
+	<ImageView
+		android:id="@+id/bgcircl"
+		android:layout_width="276dp"
+		android:layout_height="247dp"
+		android:layout_marginTop="50dp"
+		android:src="@drawable/bgcircle"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<ImageView
+		android:id="@+id/icanchor"
+		android:layout_width="358dp"
+		android:layout_height="357dp"
+		android:src="@drawable/icanchor"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<Chronometer
+		android:id="@+id/timer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:textColor="#fff"
+		android:textSize="55sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/bgcircl"
+		/>
+	
+	<Button
+		android:id="@+id/btnstart"
+		android:layout_width="280dp"
+		android:layout_height="55dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="112dp"
+		android:layout_marginEnd="8dp"
+		android:background="@drawable/bgbtnget"
+		android:text="Start Now"
+		android:textAllCaps="false"
+		android:textColor="#fff"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.522"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/bgcircl" />
+	
+	<Button
+		android:id="@+id/stop"
+		android:layout_width="280dp"
+		android:layout_height="55dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="8dp"
+		android:background="@drawable/bgbtnred"
+		android:text="Finish Workout"
+		android:textAllCaps="false"
+		android:textColor="#AF3555"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.522"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnstart" />
+</android.support.constraint.ConstraintLayout>
