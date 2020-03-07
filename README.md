@@ -1,5 +1,5 @@
 # NiceStopWatch
-1-Design for Rating application  <br>
+1-Design for Stop Watch   <br>
 2-free animation <br>
 2-free asstets 
 
